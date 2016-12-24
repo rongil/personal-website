@@ -1,0 +1,24 @@
+body {
+  background: #111; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(10deg, #222, #111, #000, #111, #222); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(10deg, #222, #111, #000, #111, #222); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(10deg, #222, #111, #000, #111, #222); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(10deg, #222, #111, #000, #111, #222); /* Standard syntax */
+}
+
+.absolute-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-link {
+  height: 40px;
+  width: 40px;
+}
+
+.main-content {
+  width: 35rem;
+  height: 35rem;
+}
