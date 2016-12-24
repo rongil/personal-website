@@ -1,0 +1,24 @@
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0;
+  }
+}
+
+@keyframes radial-expand {
+  from {
+    height: 0;
+    width: 0;
+  }
+}
+
+.appear {
+  animation: appear 1.1s ease-in;
+}
+
+.radial-expand {
+  animation: radial-expand 1s;
+}
